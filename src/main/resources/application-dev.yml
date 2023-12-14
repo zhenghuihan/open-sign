@@ -1,0 +1,9 @@
+server:
+  # 项目启动端口号
+  port: 8666
+  tomcat:
+    # 上传文件限制 -1 无限制
+    max-swallow-size: -1
+  servlet:
+    #路径前缀
+    context-path: /openSign
